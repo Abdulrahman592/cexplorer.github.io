@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>chennaiexplorer</title>
+	<link rel="stylesheet" type="text/css" href="upcss.css">
+</head>
+<body>
+	<header id="headd">
+		<img src="logo.png">
+	</header>
+	<header id="navd">
+		<a id="ho" href="index.html" target="_blank"><h>HOME</h></a>
+		<a id="ho" href="">BLOGS</a>
+		<a id="ho" href="log.html" target="_blank">LOGIN</a>
+		<a id="ho" href="" target="_blank">ABOUTUS</a>
+
+	</header>
+	<div class="go">
+		<div class="go1">
+			<form action="up" method="post">
+				{% csrf_token %}
+				<input id="fo" type="text" name="username" placeholder="USERNAME">
+				<br>
+				<br>
+				<input id="fo" type="password" name="password" placeholder="PASSWORD">
+				<br>
+				<br>
+				<input id="fo" type="text" name="firstname" placeholder="FIRSTNAME">
+				<br>
+				<br>
+				<input id="fo" type="text" name="lastname" placeholder="LASTNAME">
+				<br>
+				<br>
+				<input id="fo" type="email" name="emai" placeholder="EMAILADDRESS">
+				<br>
+				<br>
+				<input id="fo" type="phone" name="ph no" placeholder="CONTACTNO">
+				<br>
+				<br>
+				<input id="goo" type="submit" name="submit" value="GO">
+				<br>	
+
+		</div>			
+		</form>
+		<div class="go3">
+			<h1 id="go4">JOIN</h1>
+			<h1 id="go5">US!</h1>
+			
+		</div>
+		
+	</div>

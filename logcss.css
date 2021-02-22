@@ -1,0 +1,83 @@
+body{
+	background-color: yellow;
+	width: 62%;
+	height: 40px;
+
+}
+
+
+#headd{
+	position: absolute;
+	position: relative;
+	bottom: 48px;
+	right: 4px;
+
+
+}
+#navd{
+	text-align: right;
+	
+	word-spacing: 100px;
+	position: absolute;
+	position: relative;
+	bottom: 180px;
+	left: 490px;
+	font-size:23px;
+}
+#ho:hover{
+	background-color: white;
+	color: red;
+
+}
+#ho{
+	color: black;
+}
+a:active{
+	color: red;
+}
+a{
+	text-decoration: none;
+	
+}
+.log1{
+	border: 1px solid grey;
+	border-radius: 4px;
+	height: 380px;
+	width: 750px;
+	position: absolute;
+	position: relative;
+	left: 280px;
+	bottom: 61px;
+	background-color: white;
+}
+#loo{
+	border:none;
+  border-bottom: 3px solid grey;
+  width: 250px;
+  height: 30px;
+
+}
+.log2{
+	position: absolute;
+	position: relative;
+	left: 230px;
+	top: 150px;
+}
+#loo1{
+	position: absolute;
+	position:relative;
+	left:90px;
+	background-color:yellow;
+	width: 100px;
+	height: 30px;
+}
+#loo1:hover{
+	background-color: black;
+	color: white;	
+}
+.member{
+	position: absolute;
+	position: relative;
+	bottom: 525px;
+	left: 500px;
+}

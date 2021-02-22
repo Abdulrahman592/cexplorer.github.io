@@ -1,0 +1,96 @@
+body{
+	background-image: url(done.jpg);
+	background-size: cover;
+	width: 90%;
+	height: 100vh;
+	background-position: bottom;
+}
+
+
+#headd{
+	position: absolute;
+	position: relative;
+	bottom: 48px;
+	right: 4px;
+
+
+}
+#hd{
+	text-align: right;
+	word-spacing: 100px;
+	position: absolute;
+	position: relative;
+	bottom: 188px;
+	left: 100px;
+	font-size: 23px;
+}
+#hd1:hover{
+	background-color: white;
+	color: red;
+	border-radius: 8px;
+}
+#hd1{
+	color: black;
+	text-decoration: none;
+
+
+}
+.dd{
+	position: absolute;
+	position: relative;
+	left: 120px;
+	bottom: 530px;
+	
+}
+a:active{
+	color: red;
+}
+a{
+	text-decoration: none;
+	
+}
+.pg{
+	border-radius: 30px;
+	border:2px solid black;
+	width: 590px;
+	height: 310px;
+	margin-left: 10px;
+	margin-top: 5px;
+	text-align: center;
+	font-size: 35px;
+	
+	color: black;
+	font-style: Monospace;
+	background-image: url(ss3.jpg);
+	background-size: cover;
+
+	
+}
+#gg{
+	position: absolute;
+	position: relative;
+	bottom: 40px;
+	left: 20px;
+	opacity: 75%;
+	font-weight:900;
+
+}
+#gg1{
+	position: absolute;
+	position: relative;
+	right: 100px;
+	bottom: 70px;
+	opacity: 75%;
+	font-weight: 800;
+
+}
+#gg2{
+	position: absolute;
+	position: relative;
+	bottom: 146px;
+	left: 125px;
+	opacity: 75%;
+	font-weight: 800;
+
+
+}
